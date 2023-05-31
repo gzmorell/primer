@@ -2,3 +2,5 @@ build
 .cache
 notes
 anotaciones/book
+.idea
+cmake-build**
