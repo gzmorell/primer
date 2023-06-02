@@ -33,7 +33,7 @@
 // definitions that are equivalent to Sales_data's 
 // synthesized copy control members 
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #include <string>
 

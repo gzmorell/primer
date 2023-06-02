@@ -27,7 +27,6 @@
  * 	Fax: (201) 236-3290
 */ 
 
-//#include "Version_test.h"
 
 #include <cstring>
 using std::strlen;
@@ -43,6 +42,8 @@ using std::ostream;
 
 #include <utility>
 using std::swap;
+
+#include "Version_test.h"
 
 #ifdef IN_CLASS_INITS
 #include <initializer_list>

@@ -70,6 +70,24 @@ VARIADICS                 variadic templates
 */
 #endif  // ends compiler version check
 
+#define CONSTEXPR_VARS
+#define CONSTEXPR_FCNS
+#define CONSTEXPR_CTORS
+#define DEFAULT_FCNS
+#define DELETED_FCNS
+#define FUNC_CPP
+#define FUNCTION_PTRMEM
+#define IN_CLASS_INITS
+#define INITIALIZER_LIST
+#define LIST_INIT
+#define LROUND
+#define NOEXCEPT
+#define SIZEOF_MEMBER
+#define TEMPLATE_FCN_DEFAULT_ARGS
+#define TYPE_ALIAS_DECLS
+#define UNION_CLASS_MEMS
+#define VARIADICS
+
 #ifndef LROUND
 inline long lround(double d)
 {

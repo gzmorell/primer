@@ -28,7 +28,7 @@
 */
 
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #ifndef DEBUG_H
 #define DEBUG_H

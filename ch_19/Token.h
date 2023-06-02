@@ -27,12 +27,12 @@
  * 	Fax: (201) 236-3290
 */ 
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #ifndef TOKEN_H
 #define TOKEN_H
 
-//#include "Version_test.h"
+#include "Version_test.h"
 // if unions with class members that have constructors/copy control 
 // is not supported, do nothing
 #ifdef UNION_CLASS_MEMS  

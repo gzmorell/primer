@@ -2,7 +2,7 @@
  *
 */ 
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #include <iterator>
 using std::begin; using std::end;

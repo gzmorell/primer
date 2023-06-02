@@ -30,7 +30,7 @@
 #ifndef STRFOLDER_H
 #define STRFOLDER_H
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #include "String.h"
 #include <set>

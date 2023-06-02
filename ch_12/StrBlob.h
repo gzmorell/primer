@@ -29,7 +29,7 @@
 #ifndef STRBLOB_H
 #define STRBLOB_H
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #include <vector>
 #include <string>

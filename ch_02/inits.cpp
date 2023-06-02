@@ -53,7 +53,7 @@
  * Section 6.5.3 covers conditional compilation in more detail. 
 */
 
-//#include "Version_test.h"
+#include "Version_test.h"
 
 #include "Sales_item.h"
 #include <iostream>

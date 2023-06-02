@@ -30,12 +30,12 @@
 #ifndef STRING_H
 #define STRING_H
 
-//#include "Version_test.h"
-
 #include <cstring>
 #include <algorithm>
 #include <cstddef>
 #include <iostream>
+
+#include "Version_test.h"
 
 #ifdef INITIALIZER_LIST
 #include <initializer_list>
