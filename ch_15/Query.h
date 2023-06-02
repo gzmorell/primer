@@ -30,7 +30,7 @@
 #ifndef QUERY_H
 #define QUERY_H
 
-#include "Version_test.h"
+//#include "Version_test.h"
 #include "TextQuery.h"
 #include <string>
 #include <set>

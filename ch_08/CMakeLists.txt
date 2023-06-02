@@ -1,0 +1,7 @@
+include_directories("../ch_07")
+add_executable(buf buf.cpp)
+add_executable(clearIO clearIO.cpp)
+add_executable(fileIO fileIO.cpp)
+add_executable(add_item_08 add_item.cpp "../ch_07/Sales_data.cpp")
+add_executable(add_itemV2 add_itemV2.cpp "../ch_07/Sales_data.cpp")
+add_executable(sstream sstream.cpp)

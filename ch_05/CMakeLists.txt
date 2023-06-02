@@ -1,0 +1,8 @@
+include_directories("../ch_01")
+add_executable(guess guess.cpp)
+add_executable(add_item2_05 add_item2.cpp)
+add_executable(ifgrades ifgrades.cpp)
+add_executable(othercnt othercnt.cpp)
+add_executable(vowels vowels.cpp)
+add_executable(doWhile doWhile.cpp)
+add_executable(rangefor rangefor.cpp)

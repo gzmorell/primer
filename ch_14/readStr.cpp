@@ -27,7 +27,7 @@
  * 	Fax: (201) 236-3290
 */ 
 
-#include "Version_test.h"
+//#include "Version_test.h"
 
 #include <algorithm>
 using std::for_each;
@@ -58,7 +58,7 @@ public:
 	ReadLine() = delete;
 #endif 
 	ReadLine(istream &i) : is(i) { }
-	bool operator()(string &s) const { return getline(is, s); }
+	bool operator()(string &s) const { return getline(is, s).good(); }
 private:
 	istream &is;
 };

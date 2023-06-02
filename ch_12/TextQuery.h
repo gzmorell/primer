@@ -30,7 +30,7 @@
 #ifndef TEXTQUERY_H
 #define TEXTQUERY_H
 
-#include "Version_test.h"
+//#include "Version_test.h"
 
 #include <memory>
 #include <string>

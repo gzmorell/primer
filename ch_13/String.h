@@ -30,7 +30,7 @@
 #ifndef STRING_H
 #define STRING_H
 
-#include "Version_test.h"
+//#include "Version_test.h"
 
 #include <cstring>
 #include <algorithm>
