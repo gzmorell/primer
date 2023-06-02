@@ -69,6 +69,7 @@ int main()
 	
 #ifdef SIZEOF_MEMBER
 	cout << "Sales_data::revenue: " << sizeof Sales_data::revenue << "\n"
+         << "data.revenue: " << sizeof data.revenue << endl;
 #else
 	cout << "Sales_data().revenue: " << sizeof Sales_data().revenue << "\n"
 	     << "data.revenue: " << sizeof data.revenue << endl;

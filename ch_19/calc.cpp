@@ -42,10 +42,10 @@ using std::string;
 #include <functional>
 using std::bind; using std::function;
 using namespace std::placeholders;
+
 #ifndef FUNCTION_PTRMEM
 using std::mem_fn;
 #endif
-
 #ifndef LIST_INIT
 #include <utility>
 using std::make_pair;
@@ -92,7 +92,7 @@ int main()
 	// table of callable objects corresponding to each binary operator
 	// all the callables must take two ints and return an int
 	// an element can be a function pointer, function object, or lambda
-#ifdef LIST_INT
+#ifdef LIST_INIT
 	map<string, function<int(int, int)>> binops = {
 		{"+", add},                  // function pointer
 		{"-", std::minus<int>()},    // library function object

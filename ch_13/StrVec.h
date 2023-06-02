@@ -36,7 +36,7 @@
 #include <memory>
 #include <utility>
 
-#ifdef INIT_LIST
+#ifdef LIST_INIT
 #include <initializer_list>
 #endif
 
@@ -60,7 +60,7 @@ public:
 	~StrVec() throw();                   // destructor
 #endif
 
-#ifdef INIT_LIST
+#ifdef LIST_INIT
 	// additional constructor
 	StrVec(std::initializer_list<std::string>);
 #else // define a constructor that takes pointers to a range of elements
@@ -78,7 +78,7 @@ public:
 	std::string *begin() const { return elements; }
 	std::string *end() const { return first_free; }
     
-#ifdef INIT_LIST   // no real substitute for initializer_list in assignments
+#ifdef LIST_INIT   // no real substitute for initializer_list in assignments
 	// operator functions covered in chapter 14
 	StrVec &operator=(std::initializer_list<std::string>);   
 #endif
@@ -169,7 +169,7 @@ void StrVec::free()
 	}
 }
 	
-#ifdef INIT_LIST
+#ifdef LIST_INIT
 inline
 StrVec &StrVec::operator=(std::initializer_list<std::string> il)
 {
@@ -235,7 +235,7 @@ void StrVec::reallocate()
     cap = elements + newcapacity;
 }
 
-#ifdef INIT_LIST
+#ifdef LIST_INIT
 inline
 StrVec::StrVec(std::initializer_list<std::string> il)
 {

@@ -91,6 +91,7 @@ std::ostream &operator<<(std::ostream &os, const Token &t)
 		case Token::CHAR: return os << t.cval;
 		case Token::DBL: return os << t.dval;
 		case Token::STR: return os << t.sval;
+        default: return os;
 	}
 }
 

@@ -40,8 +40,7 @@ using std::istream;
 
 #include <fstream>
 using std::ifstream;
-
-#ifndef INIT_LIST
+#ifndef LIST_INIT
 #include <iterator>
 using std::begin; using std::end;
 #endif
