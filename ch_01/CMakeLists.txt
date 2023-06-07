@@ -1,4 +1,4 @@
-add_executable(add add.cpp test_01.cpp)
+add_executable(add add.cpp)
 add_executable(add_item add_item.cpp)
 add_executable(add_item2 add_item2.cpp)
 add_executable(avg_price avg_price.cpp)
