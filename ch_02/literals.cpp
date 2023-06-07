@@ -27,7 +27,10 @@
  * 	Fax: (201) 236-3290
 */ 
 
+#include <limits>
+#include <locale>
 #include <iostream>
+
 int main() 
 {
 	std::cout << "Hello World!";  // simple character string literal
@@ -44,6 +47,15 @@ int main()
 
 	unsigned long long bigVal = -1ULL;
 	std::cout << bigVal << std::endl;
+//    std::cout << std::locale().name() << std::endl;
+//    std::locale::global(std::locale(""));
+//    std::cout << std::locale().name() << std::endl;
+//    std::cout << std::locale().classic().name() << std::endl;
+//    std::locale::global(std::locale("C"));
+//    std::cout << std::locale().name() << std::endl;
+    std::locale::global(std::locale(""));
+    std::wcout.imbue(std::locale(""));
+    std::wcout << "Max unsigned long long " << std::numeric_limits<unsigned long long >::max() << std::endl;
 
     return 0;
 }

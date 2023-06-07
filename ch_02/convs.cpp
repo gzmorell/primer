@@ -28,6 +28,7 @@ int main()
 	i = c;  // the character with value 255 is an unprintable character
 	        // assigns value of c (i.e., 255) to an int
 	std::cout << i << std::endl; // prints 255
-
+    c = 255;
+    std::cout << +c << std::endl;
 	return 0;
 }

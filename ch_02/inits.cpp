@@ -78,6 +78,7 @@ int main() {
 	std::string titleA = "C++ Primer, 5th Ed.";
 	std::string titleB("C++ Primer, 5th Ed.");
 	std::string all_nines(10, '9');  // all_nines = "9999999999"
+    std::cout << titleA << std::endl << titleB << std::endl << all_nines << std::endl;
 
 	return 0;
 }
